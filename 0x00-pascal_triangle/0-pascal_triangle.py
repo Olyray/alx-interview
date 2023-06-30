@@ -3,6 +3,7 @@
 
 
 def pascal_triangle(n):
+    """The definition for Pascal's triangle"""
     if n <= 0:
         return []
     # Create the double array for the triangle with 1 already included
