@@ -1,0 +1,1 @@
+This is the directory for the pascal's triangle interview question.
