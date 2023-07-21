@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-import sys
 """Parsing the log"""
+import sys
 
 
 def read_input_line():
