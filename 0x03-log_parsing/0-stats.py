@@ -1,8 +1,10 @@
 #!/usr/bin/python3
 import sys
+"""Parsing the log"""
 
 
 def read_input_line():
+    """Input line function"""
     try:
         return input().strip()
     except KeyboardInterrupt:
@@ -10,6 +12,7 @@ def read_input_line():
 
 
 def parse_line(line):
+    """Parse line function"""
     try:
         parts = line.split()
         ip_address = parts[0]
@@ -22,12 +25,14 @@ def parse_line(line):
 
 
 def print_statistics(total_file_size, status_code_counts):
+    """Print stats function"""
     print(f"Total file size: File size: {total_file_size}")
     for status_code in sorted(status_code_counts.keys()):
         print(f"{status_code}: {status_code_counts[status_code]}")
 
 
 def main():
+    """Main function"""
     total_file_size = 0
     status_code_counts = {}
 
