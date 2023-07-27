@@ -1,0 +1,1 @@
+This directory contains a script that validates UTF-8
