@@ -1,0 +1,1 @@
+This directory contains a solution to the N Queens problem.
